@@ -81,7 +81,7 @@ components:
         id:
           type: integer
           format: int64
-         price:
+        price:
           type: integer
           format: int64
         title:
