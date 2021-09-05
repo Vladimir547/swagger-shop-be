@@ -43,7 +43,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Product'
         "404":
-          description: Product not found
+          description: "Error: Product not found!"
   /products:
     get:
       operationId: getProductsList
