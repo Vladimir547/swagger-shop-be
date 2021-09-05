@@ -8,7 +8,7 @@ servers:
     basePath:
       default: dev
 paths:
-  /product/{id}:
+  /products/{id}:
     get:
       operationId: getProductById
       parameters:
@@ -82,11 +82,9 @@ components:
         description:
           type: string
         id:
-          type: integer
-          format: int64
+          type: string
         price:
-          type: integer
-          format: int64
+          type: "number"
         title:
           type: string
     Products:
