@@ -18,7 +18,7 @@ paths:
         style: simple
         explode: false
         schema:
-          type: string
+          type: number
       responses:
         "200":
           description: 200 response
@@ -83,7 +83,7 @@ components:
         id:
           type: string
         price:
-          type: "number"
+          type: number
         title:
           type: string
     Products:
